@@ -4,24 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5a25f823-79f6-45cb-9aa7-e7c0fb323c1e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Selenium.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Alert.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Dropdown.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ExplicitWait.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ImplicitWait.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Javascript.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MouseSimulation1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Mousesimulation2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Mousesimulation3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Radiobutton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WebTable.java" afterDir="false" />
+    <list default="true" id="5a25f823-79f6-45cb-9aa7-e7c0fb323c1e" name="Changes" comment="selenium scripts">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Alert.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Alert.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +24,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "sanketchaudhari812"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/sanketchaudhari812/Selenium.git",
+    "accountId": "eca1da4f-fb9d-4055-86d6-6cf33e0748e2"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
 }</component>
@@ -50,6 +47,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Alert.executor": "Run",
     "Application.Dropdown.executor": "Run",
     "Application.ExplicitWait.executor": "Run",
     "Application.ImplicitWait.executor": "Run",
@@ -75,16 +73,9 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Mousesimulation3">
-    <configuration name="ExplicitWait" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ExplicitWait" />
-      <module name="Selenium" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Javascript" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Javascript" />
+  <component name="RunManager" selected="Application.Alert">
+    <configuration name="Alert" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Alert" />
       <module name="Selenium" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -111,13 +102,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Radiobutton" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Radiobutton" />
+      <module name="Selenium" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Alert" />
+        <item itemvalue="Application.Radiobutton" />
         <item itemvalue="Application.Mousesimulation3" />
         <item itemvalue="Application.Mousesimulation2" />
         <item itemvalue="Application.MouseSimulation1" />
-        <item itemvalue="Application.Javascript" />
-        <item itemvalue="Application.ExplicitWait" />
       </list>
     </recent_temporary>
   </component>
@@ -130,7 +128,20 @@
       <option name="presentableId" value="Default" />
       <updated>1732100262140</updated>
     </task>
+    <task id="LOCAL-00001" summary="selenium scripts">
+      <option name="closed" value="true" />
+      <created>1732468439252</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1732468439253</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="selenium scripts" />
+    <option name="LAST_COMMIT_MESSAGE" value="selenium scripts" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
